@@ -290,7 +290,7 @@ public final class HVLogic {
             hits++;
 
             level.sendParticles(new DustParticleOptions(GOLD, 2.0f), center.x, center.y, center.z, 60, 0.4, 0.5, 0.4, 0.0);
-            level.sendParticles(new DustColorTransitionOptions(new Vector3f(1.0f, 0.85f, 0.2),
+            level.sendParticles(new DustColorTransitionOptions(new Vector3f(1.0f, 0.85f, 0.2f),
                     new Vector3f(1.0f, 0.55f, 0.0f), 1.4f), center.x, center.y, center.z, 30, 0.3, 0.4, 0.3, 0.1);
             level.sendParticles(ParticleTypes.END_ROD, center.x, center.y, center.z, 15, 0.2, 0.3, 0.2, 0.2);
             level.sendParticles(ParticleTypes.CRIT, center.x, center.y, center.z, 20, 0.3, 0.4, 0.3, 0.4);
